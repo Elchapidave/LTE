@@ -1,0 +1,136 @@
+/* body{
+    background: #9c2121;
+}
+
+body{
+display: block;
+border-radius: 22px;
+left: 50%;
+top: 50%;
+position: absolute;
+transform: translate(-50%, -50% );
+background: #fcfbf8;
+width: 50%;
+height: 50%;
+box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
+}
+
+.email{
+    left: 30%;
+    top: 30%;
+    background: white;
+    display: ;
+    border-radius: 22px;
+    position: absolute;
+transform: translate(-50%, -50% );
+background: #fcfbf8;
+width: 40%;
+height: 6%;
+box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
+}
+
+.pass{
+    left: 30%;
+    top: 50%;
+    background: white;
+    display: ;
+    border-radius: 22px;
+    position: absolute;
+transform: translate(-50%, -50% );
+background: #fcfbf8;
+width: 40%;
+height: 6%;
+box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
+}   
+
+h1{
+    font-size: small;
+
+} */
+
+/* Only God knows how this code runs, cause i dont understand anymore */
+
+body{
+    background: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0; 
+
+    }
+
+
+
+
+.parent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 350;
+    color: black;
+}
+
+.description{
+    width: 50%;
+}
+
+.help , .description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+}
+
+a{
+    color: black;
+    font-style: normal;
+    font-display: contents;
+}
+
+.containe {
+    background: url(/javascript/photo_2023-12-09_02-09-16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 1000px;
+
+    /* max-height: 220px; */
+    margin: 50px auto; /* Center the container on the page */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.family{
+    width: 90%;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    margin: 50px auto; /* Center the container on the page */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.family{
+    max-width: 1200px;
+     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+section{
+    color: black;
+    border-radius: 9px;
+    border: 2px solid #ccc;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
