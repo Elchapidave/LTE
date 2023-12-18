@@ -54,7 +54,7 @@ h1{
 /* Only God knows how this code runs, cause i dont understand anymore */
 
 body{
-    background: black;
+    background: wheat;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0; 
@@ -90,7 +90,7 @@ a{
 }
 
 .containe {
-    background: url(/javascript/photo_2023-12-09_02-09-16.jpg);
+    background: url(/LTE/Img/photo_2023-12-09_02-09-16.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-width: 1000px;
@@ -110,10 +110,10 @@ a{
     flex-wrap: wrap;
     margin: 50px auto; /* Center the container on the page */
     padding: 20px;
-    background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
 }
 
 .family{
@@ -132,5 +132,6 @@ section{
     font-weight: 400;
     display: grid;
     place-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
 }
