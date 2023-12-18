@@ -57,7 +57,8 @@ body{
     background: wheat;
         font-family: Arial, sans-serif;
         margin: 0;
-        padding: 0; 
+        padding: 0;
+        width: 100%;
 
     }
 
@@ -90,7 +91,7 @@ a{
 }
 
 .containe {
-    background: url(/LTE/Img/photo_2023-12-09_02-09-16.jpg);
+    background: url(/LTE/Img/photo_2023-12-09_02-09-16.jpg) ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-width: 1000px;
@@ -100,7 +101,9 @@ a{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:  11px 11px 22px #acacac,
+             -11px -11px 22px #fafafa52;
+    opacity: 0.8;
 }
 
 .family{
