@@ -54,7 +54,7 @@ h1{
 /* Only God knows how this code runs, cause i dont understand anymore */
 
  body{
-    background: wheat;
+    background: #020100;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -73,16 +73,7 @@ h1{
 }
 
 /* ================= VARIABLE ================ */
-:root {
-  --primary-color: hsl(9, 94%, 61%);
-  --primary-color-alt: hsl(28, 72%, 83%);
-  --second-color: #3e537c;
-  --second-color-alt: hsla(220, 33%, 36%, 65%);
-  --third-color: hsl(220, 36%, 28%);
-  --white-color: #fbfbfb;
-  --white-color-alt: hsl(12, 14%, 93%);
-  --dark-color: hsl(300, 100%, 0%);
-}
+
 
 /* ================= BASE ==================== */
 li {
@@ -90,6 +81,7 @@ li {
 }
 a {
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .bx {
@@ -101,18 +93,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--dark-color);
     padding: 1rem 2rem;
+    background-color: #F1D302;
   }
   .company-logo {
-    font-size: 2.5rem;
-    background: -webkit-linear-gradient(
-      120deg,
-      var(--primary-color-alt),
-      var(--primary-color)
-    );
+    background-image: url(/LTE/Img/pexels-vera-bomstad-19733182.jpg);
+    background-clip: text;
+    background-size: cover;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size:3rem;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 900;
+  
   }
   .nav-items {
     display: flex;
@@ -124,16 +117,9 @@ header {
     font-size: 1.1rem;
     letter-spacing: 0.05rem;
     position: relative;
-    background: -webkit-linear-gradient(
-      var(--primary-color-alt),
-      var(--primary-color)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
   .nav-link::before {
     content: "";
-    background: linear-gradient(var(--primary-color), var(--primary-color-alt));
     width: 100%;
     height: 0.05rem;
     position: absolute;
@@ -153,13 +139,6 @@ header {
   .bx-menu,
   .bx-x {
     cursor: pointer;
-    background: -webkit-linear-gradient(
-      120deg,
-      var(--primary-color-alt),
-      var(--primary-color)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     display: none !important;
   }
 
@@ -190,33 +169,45 @@ a{
     font-style: normal;
     font-display: contents;
 }
-
+header{
+  border: 1px solid #212922;
+  border-radius: 8px;
+  box-shadow:  11px 11px 22px #212922,
+  -11px -11px 22px #212922;
+opacity: 0.8;
+}
 .containe {
     background: url(/LTE/Img/photo_2023-12-09_02-09-16.jpg) ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    max-width: 1000px;
-
+    max-width: 1300px;
      max-height: 220px; 
-     margin: 50px auto; /* Center the container on the page  */
+     margin: 10px auto; /* Center the container on the page  */
       padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #020100;
     border-radius: 8px;
-    box-shadow:  11px 11px 22px #acacac,
-             -11px -11px 22px #fafafa52;
+    box-shadow:  11px 11px 22px #212922,
+             -11px -11px 22px #212922;
     opacity: 0.8;
 }
 
+.created-div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  display: inline-block;
+}
 .family{
     width: 95%;
     display: flex;
-
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: auto; /* Center the container on the page */
-    border: 1px solid #ccc;
+    border: 1px solid #212922;
     border-radius: 8px;
-    box-shadow:  11px 11px 22px #acacac,
-             -11px -11px 22px #fafafa52;
+    box-shadow:  11px 11px 22px #212922,
+             -11px -11px 22px #212922;
 }
 
 .cards{
@@ -231,16 +222,17 @@ a{
 .container{
     color: black;
     border-radius: 9px;
-    border: 2px solid #ccc;
+    border: 2px solid #212922;
     font-size: medium;
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    margin: 15px;
-
-    box-shadow:  11px 11px 22px #acacac,
-             -11px -11px 22px #fafafa52;
+    justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+    box-shadow:  11px 11px 22px #212922,
+             -11px -11px 22px #212922;
 }
 
 .container{
@@ -250,7 +242,7 @@ a{
 .cards{
     width: 200px;
     margin: 10px;
-    background-color: wheat;
+    background-color: #F1D302;
     border-radius: 15px;
 }
 .card-img img{
@@ -258,11 +250,11 @@ a{
 
     object-fit: cover;
     border-radius: 9px;
-    border: 2px solid #ccc;
+    border: 2px solid #212922;
     width: 15%;
     height: 50%;
-    box-shadow:  11px 11px 22px #acacac,
-             -11px -11px 22px #fafafa52;
+    box-shadow:  11px 11px 22px #212922,
+             -11px -11px 22px #212922;
 }
 .card-body h2{
     text-align: center;
@@ -282,5 +274,6 @@ a{
 .card-footer button{
     width: 150px;
     background: black;
-    color: white;
+    color: #212922;
 }
+
